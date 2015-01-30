@@ -85,6 +85,16 @@
                                     <action selector="sendMailButtonPressed:" destination="ywB-jF-tZd" eventType="touchUpInside" id="Rlc-oz-nUt"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfL-gG-Mc0">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <rect key="frame" x="16" y="165" width="219" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XM-UV-uCj">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -103,6 +113,7 @@
                                 <exclude reference="Oj3-ui-DqY"/>
                                 <exclude reference="tMC-RX-cWc"/>
                                 <exclude reference="9sF-yI-Oxa"/>
+                                <exclude reference="AfL-gG-Mc0"/>
                                 <exclude reference="1XM-UV-uCj"/>
                             </mask>
                         </variation>
@@ -112,6 +123,7 @@
                                 <include reference="Oj3-ui-DqY"/>
                                 <include reference="tMC-RX-cWc"/>
                                 <include reference="9sF-yI-Oxa"/>
+                                <include reference="AfL-gG-Mc0"/>
                                 <include reference="1XM-UV-uCj"/>
                             </mask>
                         </variation>
@@ -121,6 +133,7 @@
                         <outlet property="enterNameTextField" destination="Oj3-ui-DqY" id="Pch-iV-rax"/>
                         <outlet property="mailButton" destination="9sF-yI-Oxa" id="uYo-UQ-JAm"/>
                         <outlet property="messageLabel" destination="1XM-UV-uCj" id="7LN-cP-ctl"/>
+                        <outlet property="nameLabel" destination="AfL-gG-Mc0" id="59z-U5-vzT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bok-AD-Yk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
